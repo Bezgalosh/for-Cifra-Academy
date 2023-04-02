@@ -2,7 +2,7 @@ import argparse
 import math
 
 parser = argparse.ArgumentParser()
-parser.add_argument("filename", help="filename with numbers") 
+parser.add_argument("filename") 
 args = parser.parse_args()
 
 with open(args.filename, 'r') as f:
